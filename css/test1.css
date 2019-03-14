@@ -1,0 +1,457 @@
+body{
+    background: #484d53;
+    color: #f8f9fa;
+}
+
+.logoImage {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+a {
+    color: rgba(255,255,255,.5);
+}
+a:focus, a:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.sidebar ul li a.active {
+    background-color: #343a40; 
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+.navbar-default {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #5c6166;
+}
+.sidebar ul li {
+     border-bottom: 1px solid #5c6166; 
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+     background-color: #5c6166; 
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #5c6166; 
+}
+
+div.form-group > div.row > div.col-lg-6 {
+    padding-bottom: 10px;
+}
+
+.SliderImage > .carousel-item {
+  height: 80vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:none
+}
+
+.slidertop{
+    margin-top: 20px;
+    position: relative;
+}
+
+.SliderImage{
+    position: absolute;
+}
+
+
+.indextxt{
+    position: absolute;
+    padding-left: 11%;
+    padding-right: 11%;
+    top: 35vh;
+}
+
+.carousel-control-Button  {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    padding: 30vh 10% 30vh 10px;
+    transform: translate(0%,-50%);
+}
+
+.carousel-control-next{
+    position: absolute;
+    top: 40vh;
+    right: 0;
+    padding: 30vh 10px 30vh 10%;
+    transform: translate(0%,-50%);
+}
+
+@media (max-width: 768px){
+    .container {
+    width: 500px;
+}
+}
+
+
+.footercss{
+    height: 50px;
+}
+
+.footerforum{
+    height: 50px;
+    width: 100%
+
+}
+
+.footerdiv {
+    right: 0; 
+    left: 0;
+    padding: 15px; 
+}
+
+.row {
+    margin-top: 60px;
+}
+
+/*--AU--*/
+.login-center{
+    width: 400px;
+    height: 360px;
+    background-color: #EDEDED;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h2{
+    color: #c70039;
+}
+
+h3{
+    color: #ffffff;
+    text-align: center;
+}
+
+h4 { 
+ color: #000000;    
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+
+hr{
+ border:0 solid #fff; 
+ border-bottom-width: 1px;
+ padding-bottom:10px;
+}
+
+label{
+    color: #000000;
+}
+.form-control {
+    border-radius: 10px;
+}
+
+.formsizesetting{
+
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.checkbox{
+    color: #000000;
+}
+
+.contact-center{
+    width: 500px;
+    height: 550px;
+    background-color: #EDEDED;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.form-group{
+    color: #000000;
+}
+
+.submit-center{
+    text-align: center;
+}
+
+.radio-inline{
+    color: #000000;
+}
+
+.register-center{
+    width: 400px;
+    height: 570px;
+    background-color: #EDEDED;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/*--AU--*/
+
+/*--Questionnaire --*/
+.question{
+    margin-bottom: 30px;
+}
+
+.questionH3 {
+    color: #000;
+    text-align: left;
+}
+
+.questionRadio{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.questionTextArea {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*--Questionnaire --*/
+
+/* forum */
+.imgForumOfpc {
+    height: 120px;
+    width: 120px;
+}
+
+.tdOfpc{
+    padding: 10px;
+}
+
+.tdwidth{
+    width: 100%;
+}
+
+.tdImgOfpc {
+    vertical-align: top;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.forumNoOfpc {
+    float: left;
+}
+
+.forumDateOfpc{
+    float: right;
+}
+
+.imgForumOfMobile {
+    height: 50px;
+    width: 50px;
+}
+
+.tdlistOfMobile {
+    width: 100%;
+    padding: 0 0 0 10px;
+}
+
+.NameInMobile {
+    float: left;
+}
+
+.forumNoOfMobile{
+    float: right;
+}
+
+.forumDateOfMobile{
+    clear: left;
+}
+
+.tdOfComment{
+    padding: 10px;
+    vertical-align: top;
+}
+
+@media (max-width: 768px){
+    .forumOfpc {
+    display: none;
+}
+}
+
+@media (min-width: 768px){
+    .forumOfMobile {
+    display: none;
+}
+}
+
+/* forum */
+
+/* contact */
+@media (min-width: 768px){
+    .PcAndMobile {
+    width: 700px;
+    margin:0 auto;
+    }
+    .MsgPcAndMobile{
+    width: 700px;
+    margin:0 auto;
+    }
+}
+
+.contactMsg {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 2.5px solid #2b2e31;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    background-color: #40454a;
+}
+
+.MsgOfContact{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.MsgTd {
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+.MsgTh{
+    width: 140px;
+}
+
+.color-buttondark{
+    height: 55px;
+    font-size: 20px;
+    width: 100%; 
+    background: linear-gradient(to bottom,#4b4b4b 0,#414141 50%,#373737 100%);
+}
+
+.color-buttonblue{
+    height: 55px;
+    font-size: 20px;
+    width: 100%; 
+    background: linear-gradient(to bottom,#799dda 0,#6084c0 50%,#4a6695 100%);
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #FFF; 
+    text-decoration: none;
+}
+
+.NumWidth{
+    width: 100px;
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .PcAndMobile {
+    padding: 15px;
+    }
+    .MsgPcAndMobile{
+        margin: 15px;
+        font-size: 12px;
+    }
+    .color-button {
+        font-size: 14px;
+    }
+    .NumWidth{
+    width: 60px;
+    }
+    .MsgOfContact{
+    font-size: 14px;
+    }
+    .MsgTh{
+    width: 80px;
+    }
+}
+/* contact */
+
+/* questionnaire */
+.btn_questionnaire{
+    background-color: #555555;
+    margin: 0 auto;
+}
+
+#myTable {
+    color: #000;
+}
+/* questionnaire */
+
+/*profile*/
+.imgProfile{
+    text-align: center;
+}
+
+.inputProfile {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    .ProfilePcAndMobile{
+    width: 700px;
+    margin:0 auto;
+    }
+}
+
+@media (max-width: 768px){
+    .ProfilePcAndMobile {
+    padding: 15px;
+}
+}
